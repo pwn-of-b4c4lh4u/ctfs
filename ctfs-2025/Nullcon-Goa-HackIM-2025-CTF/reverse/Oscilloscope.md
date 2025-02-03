@@ -63,7 +63,7 @@ plot_data()
 - Looking at this [video](https://www.youtube.com/watch?v=CAvawEcxoPU) we can understand the structure of I2C data transmission
     - An example from the video can be seen in the following image
 
-![I2C Frame structure](image.png)
+![I2C Frame structure](../images/oscilloscope-i2c-frame.png)
 
 - For this challenge since the data was small i decided to go frame by frame and take the binary data from it. An example of how the data tranmission starts and how the letter `E` was transmitted can be seen in the following image
 
