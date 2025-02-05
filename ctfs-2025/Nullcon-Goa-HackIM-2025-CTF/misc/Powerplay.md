@@ -148,3 +148,11 @@ if __name__ == '__main__':
     # Retrieve flag
     print(f'[i] Flag: {getFlag(base, pumps)}')
 ```
+
+Finally by running the program we are able to retrieve the flag:
+```bash
+$ python3 solve.py
+[i] Flag: ENO{d0_n0t_be_s0_neg4t1ve_wh3n_y0u_sh0uld_be_pos1t1ve}
+
+$
+```
