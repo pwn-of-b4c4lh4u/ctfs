@@ -1,10 +1,13 @@
 ## Finders Keepers
 
 We are given an image file called **weird.png**.
+
 Using binwalk we see that there is hidden information in the image with the command:
 `binwalk weird.png`
+
 We extract it with the following command:
 `binwalk --dd='.*' weird.png` 
+
 We get the image **12005**
 
 Then we use the foremost tool extract information if available of the 12005 image
